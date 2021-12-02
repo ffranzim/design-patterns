@@ -18,7 +18,7 @@ public class TestesDescontos {
         Orcamento orcamento3 = new Orcamento(new BigDecimal(500), 1);
         Orcamento orcamento4 = new Orcamento(new BigDecimal(500.01), 1);
 
-        //? Chain of Responsibility
+        //? Chain of Responsibility - Corrente de Responsabilidades
         CalculadoraDeDescontos calcDescontos = new CalculadoraDeDescontos();
         System.out.println(calcDescontos.calcular(orcamento));
         System.out.println(calcDescontos.calcular(orcamento2));
