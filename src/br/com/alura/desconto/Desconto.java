@@ -12,6 +12,7 @@ abstract class Desconto {
     }
 
     //? Template Method - Retirou codigo dos filhos e trouxe a regra de negocio pra cá
+    //? Faz parte do processo e delega o resto
     public BigDecimal calcular(Orcamento orcamento) {
         if (deveAplicar(orcamento)) {
             return efetuarCalculo(orcamento);
