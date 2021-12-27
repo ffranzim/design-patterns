@@ -2,45 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e94eec25-f15a-47ad-9adb-27150b67e1fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/TestesAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/http/HttpAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/http/JavaHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/ICMScomISS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/RegistroDeOrcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/TestesComposicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcavel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/DomainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/DomainException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesDescontos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesDescontos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesImpostos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesImpostos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesPedidos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/TestesPedidos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/acao/AcaoAposGerarPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/acao/AcaoAposGerarPedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/acao/EnviarEmailPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/acao/EnviarEmailPedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/acao/SalvarPedidoNoBancoDeDados.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/acao/SalvarPedidoNoBancoDeDados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/CalculadoraDeDescontos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/CalculadoraDeDescontos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/Desconto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/Desconto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/DescontoParaOrcamentoComMaisDeCincoItens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/DescontoParaOrcamentoComMaisDeCincoItens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/DescontoParaOrcamentoComValorSuperiorQuinhetos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/DescontoParaOrcamentoComValorSuperiorQuinhetos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/SemDesconto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/desconto/SemDesconto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/CalculadoraDeImpostos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/CalculadoraDeImpostos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/ICMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/ICMS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/ISS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/ISS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/Imposto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/imposto/Imposto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/orcamento/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/orcamento/Orcamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/pedido/GerarPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/pedido/GerarPedido.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/pedido/GerarPedidoHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/pedido/GerarPedidoHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/loja/br/com/alura/pedido/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/loja/br/com/alura/pedido/Pedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/TestesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/TestesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/TestesDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/TestesDescontos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/TestesImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/TestesImpostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/imposto/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/ICMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/imposto/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/ISS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/imposto/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/Imposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/orcamento/ItemOrcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/ItemOrcamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/situacao/Aprovado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/situacao/Aprovado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/situacao/EmAnalise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/situacao/EmAnalise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/situacao/Finalizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/situacao/Finalizado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/situacao/Reprovado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/situacao/Reprovado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/situacao/SituacaoOrcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/situacao/SituacaoOrcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/pedido/GerarPedidoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/pedido/GerarPedidoHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,6 +68,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
@@ -168,10 +146,23 @@
       <recent name="br.com.alura.imposto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestesImpostos">
+  <component name="RunManager" selected="Application.TestesComposicao">
     <configuration name="TestesAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.TestesAdapter" />
       <module name="loja" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestesComposicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.TestesComposicao" />
+      <module name="loja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestesComposicao" />
         <item itemvalue="Application.TestesImpostos" />
         <item itemvalue="Application.TestesAdapter" />
         <item itemvalue="Application.TestesPedidos" />
