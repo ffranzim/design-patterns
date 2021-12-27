@@ -16,10 +16,12 @@ public class TestesImpostos {
 
 
         //? Strategy
+//        CalculadoraDeImpostos calcImpostos = new CalculadoraDeImpostos();
+//        System.out.println(calcImpostos.calcular(orcamento, new ISS()));
+//        System.out.println(calcImpostos.calcular(orcamento, new ICMS()));
+        //? Decorator faz uma composição
         CalculadoraDeImpostos calcImpostos = new CalculadoraDeImpostos();
-        System.out.println(calcImpostos.calcular(orcamento, new ISS()));
-        System.out.println(calcImpostos.calcular(orcamento, new ICMS()));
-
+        System.out.println(calcImpostos.calcular(orcamento, new ICMS(new ISS(null))));
 
     }
 
